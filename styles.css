@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+    background-color: #F0ECE4;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.button {
+    padding: 12px;
+    font-size: 12px;
+    background-color: lime;
+    cursor: pointer;
+}
+
+.dropdown-nav {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 160px;
+}
+
+.dropdown-nav a {
+    display: block;
+    padding: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-nav a:hover {
+    transition: 75ms;
+    background-color: cornflowerblue;
+}
+.show {
+    display:block;
+}
+.random-text {
+    margin-top: 15px;
+}
+.image{
+    text-align: center;
+    margin-top: 100px;
+}
